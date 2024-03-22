@@ -39,10 +39,13 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <a className='flexplace-items-center justify-center p-3 bg-black text-white font-mono font-bold rounded-md hover:shadow-lg transition-all duration-300 select-none' href='https://discord.com/users/319877228936691713'>
-                        Hire Me Here
-                        <i className="ml-3 fa-solid fa-arrow-right-long"></i>
-                    </a>
+                    <div className='grid font-mono w-2/3 text-sm'>
+                        <a className='flexplace-items-center mb-2 w-fit text-base justify-center p-3 bg-black text-white font-mono font-bold rounded-md hover:shadow-lg transition-all duration-300 select-none' href='https://discord.com/users/319877228936691713'>
+                            Hire Me Here
+                            <i className="ml-3 fa-solid fa-arrow-right-long"></i>
+                        </a>
+                        -or find me on Discord with the username <p className='font-bold text-[#5865F2]'>@mvvrgan</p>
+                    </div>
 
                     {/* About Me */}
                     <div className="mt-10 border-t-2 border-stone-50 pt-7">
