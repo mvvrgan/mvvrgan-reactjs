@@ -1,7 +1,7 @@
 {
   "name": "mvvrgan-reactjs",
   "version": "0.1.0",
-  "homepage": "https://mvvrgan.github.io/",
+  "homepage": "https://mvvrgan.github.io/mvvrgan-reactjs/",
   "private": true,
   "scripts": {
     "deploy": "gh-pages -d build",
