@@ -2,19 +2,22 @@ import Head from 'next/head';
 import Script from 'next/script';
 import { Typewriter } from 'react-simple-typewriter'
 import { Experience } from '@components/ExperienceComponent';
+import { ElementType, useEffect } from 'react';
 
 export default function Home() {
     const words = ["Programmer", "Game Developer", "Problem Solver", "Web Developer", "Creative Thinker"]
-
+    
     return (
         <div>
             <Script src="https://kit.fontawesome.com/b1f04350ee.js" crossOrigin="anonymous" />
+            <Script src={'/js/faviconLoader.js'} />
 
             <Head>
                 <meta charSet="utf-8" />
                 <title>mvvrgan&apos;s portfolio</title>
-                <meta name="description" content="🙋‍♂️" />
-                <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="🧑‍💻 Explore my past experience & learn a little bit about me within this tidy Website I have created!" />
+                <meta color='#2b2d31' name="theme-color" content="#2b2d31" />
+                <link rel="icon" href={'/me.png'} />
             </Head>
 
             <div className="p-8 md:grid grid-cols-3">
