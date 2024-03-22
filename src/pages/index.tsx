@@ -142,10 +142,10 @@ export default function Home() {
                                 <a className='hover:scale-105 transition-all duration-500' href='https://discord.com/users/319877228936691713' target='_blank'>
                                     <i className="fa-brands fa-discord"></i>
                                 </a>
-                                <a className='hover:scale-105 transition-all duration-500' href='https://discord.com/users/319877228936691713' target='_blank'>
+                                <a className='hover:scale-105 transition-all duration-500' href='https://twitter.com/mvvrgan' target='_blank'>
                                     <i className="fa-brands fa-twitter"></i>
                                 </a>
-                                <a className='mr-1 hover:scale-105 transition-all duration-500' href='https://discord.com/users/319877228936691713' target='_blank'>
+                                <a className='mr-1 hover:scale-105 transition-all duration-500' href='https://www.roblox.com/users/284307731/profile' target='_blank'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M18.926 23.998L0 18.892L5.075.002L24 5.108ZM15.348 10.09l-5.282-1.453l-1.414 5.273l5.282 1.453z"></path></svg>
                                 </a>
                             </div>
