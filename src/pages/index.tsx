@@ -94,7 +94,7 @@ export default function Home() {
                                 name='Sakura Kitchen'
                                 position='Game Developer & Programmer'
                                 dateStarted='Aug 2023'
-                                dateEnded='Present'
+                                dateEnded='March 2024'
                                 description='🌸 Founded by an old friend of mine, I reached out upon development hires. Throughout my time at Sakura Kitchen I have been working on most aspects of the games - from fixing bugs & adding features to Version 1, to scripting systems within Version 2 (with Knit Framework), developing an API (Bun, TS, Elysia JS), a Discord Bot (Discord JS), a future Dashboard Website (using React Framework).'
                                 links={[
                                     { name: 'Game', url: 'https://www.roblox.com/games/5510230042/TIPS-Sakura-Hibachi-Restaurant' },
