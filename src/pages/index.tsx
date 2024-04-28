@@ -52,7 +52,7 @@ export default function Home() {
 
                     {/* About Me */}
                     <div className="mt-10 border-t-2 border-stone-50 pt-7">
-                        <h1 className="text-4xl font-mono font-bold mb-4 bg-indigo-600">About Me</h1>
+                        <h1 className="text-4xl font-mono font-bold mb-4">About Me</h1>
                         <p className="text-lg font-mono">From the 🇬🇧 United Kingdom, at 19 years old with experience in the Programming/Development field since 2018 (6 years). I have a variety of skills & knowledge, ranging from Programming, Object Orientated Programming (OOP/OO), SQL/RDBMS & NoSQL Database Design, Game Development & much more. I work a full stack, with a variety of Programming Languages such as Javascript, Typescript, Python, LuaU, C#, R and SQL.</p>
                     </div>
 
