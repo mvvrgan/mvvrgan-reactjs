@@ -52,7 +52,7 @@ export default function Home() {
 
                     {/* About Me */}
                     <div className="mt-10 border-t-2 border-stone-50 pt-7">
-                        <h1 className="text-4xl font-mono font-bold mb-4">About Me</h1>
+                        <h1 className="text-4xl font-mono font-bold mb-4 bg-indigo-600">About Me</h1>
                         <p className="text-lg font-mono">From the 🇬🇧 United Kingdom, at 19 years old with experience in the Programming/Development field since 2018 (6 years). I have a variety of skills & knowledge, ranging from Programming, Object Orientated Programming (OOP/OO), SQL/RDBMS & NoSQL Database Design, Game Development & much more. I work a full stack, with a variety of Programming Languages such as Javascript, Typescript, Python, LuaU, C#, R and SQL.</p>
                     </div>
 
@@ -60,20 +60,6 @@ export default function Home() {
                     <div className="mt-10 border-t-2 border-stone-50 pt-7">
                         <h1 className="text-4xl font-mono font-bold mb-1">My Experience</h1>
                         <div className='grid grid-cols-1 pb-7 border-b-2 border-stone-50'>
-
-                            <Experience 
-                                imageSrc='/kecai-exp2.png' 
-                                name='Kecai'
-                                position='Game Developer & Programmer'
-                                dateStarted='Jan 2024'
-                                dateEnded='Present'
-                                description="🌴 Responsible for the programming in Version 3. Using a type of Framework 'Order' I have gained skill in numerous Roblox Frameworks. Not much else can be said as this is a work in progress."
-                                links={[
-                                    { name: 'Game', url: 'https://www.roblox.com/games/5375160701/SPRING-Kecai-Restaurant' },
-                                    { name: 'Group', url: 'https://www.roblox.com/groups/4594985/Kecai' },
-                                    { name: 'Discord', url: 'https://discord.gg/kecai' }
-                                ]}
-                            />
 
                             <Experience 
                                 imageSrc='/makisalon-exp1.png' 
@@ -90,20 +76,6 @@ export default function Home() {
                             />
 
                             <Experience 
-                                imageSrc='/sakura-exp1.png' 
-                                name='Sakura Kitchen'
-                                position='Game Developer & Programmer'
-                                dateStarted='Aug 2023'
-                                dateEnded='March 2024'
-                                description='🌸 Founded by an old friend of mine, I reached out upon development hires. Throughout my time at Sakura Kitchen I have been working on most aspects of the games - from fixing bugs & adding features to Version 1, to scripting systems within Version 2 (with Knit Framework), developing an API (Bun, TS, Elysia JS), a Discord Bot (Discord JS), a future Dashboard Website (using React Framework).'
-                                links={[
-                                    { name: 'Game', url: 'https://www.roblox.com/games/5510230042/TIPS-Sakura-Hibachi-Restaurant' },
-                                    { name: 'Group', url: 'https://www.roblox.com/groups/6975354/Sakura-Kitchen' },
-                                    { name: 'Discord', url: 'https://discord.gg/sakurakitchen' }
-                                ]}
-                            />
-
-                            <Experience 
                                 imageSrc='/brewblox-exp1.png' 
                                 name='Brewblox'
                                 position='Lead Programmer & Lead Game Developer'
@@ -114,6 +86,34 @@ export default function Home() {
                                     { name: 'Game', url: 'https://www.roblox.com/games/10152758054/AI-Work-at-BrewBlox-Cafe' },
                                     { name: 'Group', url: 'https://www.roblox.com/groups/15197021/Brewblox' },
                                     { name: 'Discord', url: 'https://discord.gg/PRUS3hyJuQ' }
+                                ]}
+                            />
+
+                            <Experience 
+                                imageSrc='/kecai-exp2.png' 
+                                name='Kecai'
+                                position='Game Developer & Programmer'
+                                dateStarted='Jan 2024'
+                                dateEnded='Apr 2024'
+                                description="🌴 Responsible for the programming in Version 3. Using a type of Framework 'Order' I have gained skill in numerous Roblox Frameworks. Not much else can be said as this is a work in progress."
+                                links={[
+                                    { name: 'Game', url: 'https://www.roblox.com/games/5375160701/SPRING-Kecai-Restaurant' },
+                                    { name: 'Group', url: 'https://www.roblox.com/groups/4594985/Kecai' },
+                                    { name: 'Discord', url: 'https://discord.gg/kecai' }
+                                ]}
+                            />
+
+                            <Experience 
+                                imageSrc='/sakura-exp1.png' 
+                                name='Sakura Kitchen'
+                                position='Game Developer & Programmer'
+                                dateStarted='Aug 2023'
+                                dateEnded='March 2024'
+                                description='🌸 Founded by an old friend of mine, I reached out upon development hires. Throughout my time at Sakura Kitchen I have been working on most aspects of the games - from fixing bugs & adding features to Version 1, to scripting systems within Version 2 (with Knit Framework), developing an API (Bun, TS, Elysia JS), a Discord Bot (Discord JS), a future Dashboard Website (using React Framework).'
+                                links={[
+                                    { name: 'Game', url: 'https://www.roblox.com/games/5510230042/TIPS-Sakura-Hibachi-Restaurant' },
+                                    { name: 'Group', url: 'https://www.roblox.com/groups/6975354/Sakura-Kitchen' },
+                                    { name: 'Discord', url: 'https://discord.gg/sakurakitchen' }
                                 ]}
                             />
 
